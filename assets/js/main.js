@@ -36,6 +36,12 @@ $(document).ready(function() {
       $('#typeform-full').addClass('typeform-expanded');
       $(this).hide();
       $('#close-typeform').show();
+      var google_conversion_id = 974972289;
+      var google_conversion_language = "en";
+      var google_conversion_format = "3";
+      var google_conversion_color = "ffffff";
+      var google_conversion_label = "-0pmCIrrn10Qgcvz0AM";
+      var google_remarketing_only = false;
     });
 
     $('#close-typeform').click(function(){
@@ -49,3 +55,4 @@ $(document).ready(function() {
 $('.squeeze-btn').click(function(){
   $('#typeform-container').trigger('click');
 });
+
