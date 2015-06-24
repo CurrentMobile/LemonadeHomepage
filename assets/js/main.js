@@ -42,6 +42,7 @@ $(document).ready(function() {
       var google_conversion_color = "ffffff";
       var google_conversion_label = "-0pmCIrrn10Qgcvz0AM";
       var google_remarketing_only = false;
+      ga('send', 'event', { eventCategory: 'Contact Form', eventAction: 'Start Form', eventLabel: 'LemonadeStudios'});
     });
 
     $('#close-typeform').click(function(){
